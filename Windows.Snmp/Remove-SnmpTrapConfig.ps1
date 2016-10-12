@@ -4,7 +4,8 @@ Function Remove-SnmpTrapConfig {
           Remove SNMP trap configuration
 
         .DESCRIPTION
-          This function will remove servers from the specified TrapConfiguration sub-key.
+          This function will remove servers from the specified TrapConfiguration sub-key, or the complete sub-key and children
+          if no TrapServer is specified
 
         .PARAMETER TrapName
           [string] Name of the TrapConfiguration sub-key.
